@@ -1,0 +1,31 @@
+myGameArea.stop();
+
+
+test.x = myObstacleBottom.x
+test.y = myObstacleBottom.y
+test.newPos()
+test.update()
+
+test.x = myObstacleBottom.x + myObstacleBottom.width
+test.y = myObstacleBottom.y
+test.newPos()
+test.update()
+
+
+test.x = myObstacleBottom.x
+test.y = 0 
+test.newPos()
+test.update()
+
+test.x = myObstacleBottom.x + myObstacleBottom.width
+test.y = 0 
+test.newPos()
+test.update()
+
+
+
+ctx.globalAlpha=0.5;
+ctx.fillStyle="grey";
+ctx.fillRect(0,0,480,320); 
+ctx.font = "30px Arial";
+ctx.fillText("Click Game to Start",110,160); 
